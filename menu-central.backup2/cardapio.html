@@ -1,0 +1,232 @@
+<html>
+<title> teste de pagina cardapio </title>
+<style type="text/css">
+ body {
+     background:#F5F5DC;
+	 border-radius:10px;
+	 font-family:Arial, Helvetica, sans-serif;
+	 font-size: 20px; /* Diminuído de 50px para o texto não quebrar o layout */
+	 font-weight: bold;
+     color:brown;
+ }
+ img {
+    border-radius:15px;
+    width:150px;
+    height:150px;
+ }
+</style>
+<body>
+<div style="text-align: center; margin: 30px 0;">
+  <input type="text" id="campo-pesquisa" onkeyup="filtrarProdutos()" placeholder="Pesquise por uma ração (ex:Premier cats)" style="width: 60%; max-width: 500px; padding: 12px 20px; font-size: 16px; border: 2px solid #brown; border-radius: 25px; outline: none; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+</div>
+<div class="container my-5">
+  <div class="row g-4 justify-content-center">
+<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="card-produto h-100" style="background-color: #f9f9f9; padding: 15px; border-radius: 8px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); display: flex; flex-direction: column; justify-content: space-between;">   
+        <div>
+          <img src="OIP23.jpg" style="width: 150px; height: 150px; object-fit: contain; display: block; margin: 0 auto 10px;"> 
+<h3 style="font-size: 16px; margin: 10px 0 5px; color: #333;">Ração golden gatos 10kg</h3>
+          <p style="font-weight: bold; color: #27ae60; margin: 5px 0 10px;">R$ 149,90</p>
+    </div>
+    
+    <a href="https://wa.me" target="_blank" style="background-color: #ff3838; color: white; padding: 8px 15px; text-decoration: none; border-radius: 4px; display: inline-block; font-size: 14px; margin-top: auto;">Comprar</a>
+  </div> 
+</div> 
+
+
+
+          
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="card-produto h-100" style="background-color: #f9f9f9; padding: 15px; border-radius: 8px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); display: flex; flex-direction: column; justify-content: space-between;">   
+        <div>
+          <img src="PIU13.webp" style="width: 150px; height: 150px; object-fit: contain; display: block; margin: 0 auto 10px;">  
+          <h3 style="font-size: 16px; margin: 10px 0 5px; color: #333;">Ração Golden Gatos Castrados 10kg</h3>
+          <p style="font-weight: bold; color: #27ae60; margin: 5px 0 10px;">R$ 89,90</p>
+        </div>
+        <a href="https://wa.me" target="_blank" style="background-color: #ff3838; color: white; padding: 8px 15px; text-decoration: none; border-radius: 4px; display: inline-block; font-size: 14px; margin-top: auto;">Comprar</a>
+      </div>
+    </div>
+    
+<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="card-produto h-100" style="background-color: #f9f9f9; padding: 15px; border-radius: 8px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); display: flex; flex-direction: column; justify-content: space-between;">   
+        <div>
+          <img src="OIP1.PNG" style="width: 150px; height: 150px; object-fit: contain; display: block; margin: 0 auto 10px;"> 
+          <h3 style="font-size: 16px; margin: 10px 0 5px; color: #333;">Ração Whiskas peixe 900g</h3>
+          <p style="font-weight: bold; color: #27ae60; margin: 5px 0 10px;">R$ 13,17</p>
+        </div>
+        <a href="https://wa.me" target="_blank" style="background-color: #ff3838; color: white; padding: 8px 15px; text-decoration: none; border-radius: 4px; display: inline-block; font-size: 14px; margin-top: auto;">Comprar</a>
+      </div>
+    </div>
+<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="card-produto h-100" style="background-color: #f9f9f9; padding: 15px; border-radius: 8px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); display: flex; flex-direction: column; justify-content: space-between;">  
+        <div>
+          <img src="OIP2.PNG" style="width: 150px; height: 150px; object-fit: contain; display: block; margin: 0 auto 10px;"> 
+          <h3 style="font-size: 16px; margin: 10px 0 5px; color: #333;">Ração Snack Cat Premium para gatos Adultos sabor salmão 20kg</h3>
+          <p style="font-weight: bold; color: #27ae60; margin: 5px 0 10px;">R$ 189,50</p>
+        </div>
+        <a href="https://wa.me" target="_blank" style="background-color: #ff3838; color: white; padding: 8px 15px; text-decoration: none; border-radius: 4px; display: inline-block; font-size: 14px; margin-top: auto;">Comprar</a>
+      </div>
+    </div>
+ <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="card-produto h-100" style="background-color: #f9f9f9; padding: 15px; border-radius: 8px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); display: flex; flex-direction: column; justify-content: space-between;">  
+        <div>
+          <img src="BOP.PNG" style="width: 150px; height: 150px; object-fit: contain; display: block; margin: 0 auto 10px;"> 
+          <h3 style="font-size: 16px; margin: 10px 0 5px; color: #333;">Ração Dog chow Adultos 15kg</h3>
+          <p style="font-weight: bold; color: #27ae60; margin: 5px 0 10px;">R$ 89,90</p>
+        </div>
+        <a href="https://wa.me" target="_blank" style="background-color: #ff3838; color: white; padding: 8px 15px; text-decoration: none; border-radius: 4px; display: inline-block; font-size: 14px; margin-top: auto;">Comprar</a>
+      </div>
+    </div>
+<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="card-produto h-100" style="background-color: #f9f9f9; padding: 15px; border-radius: 8px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); display: flex; flex-direction: column; justify-content: space-between;">  
+        <div>
+          <img src="PIU.webp" style="width: 150px; height: 150px; object-fit: contain; display: block; margin: 0 auto 10px;"> 
+          <h3 style="font-size: 16px; margin: 10px 0 5px; color: #333;">Ração Whiskas Sachê carne 85g</h3>
+          <p style="font-weight: bold; color: #27ae60; margin: 5px 0 10px;">R$ 2,50</p>
+        </div>
+        <a href="https://wa.me" target="_blank" style="background-color: #ff3838; color: white; padding: 8px 15px; text-decoration: none; border-radius: 4px; display: inline-block; font-size: 14px; margin-top: auto;">Comprar</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="card-produto h-100" style="background-color: #f9f9f9; padding: 15px; border-radius: 8px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); display: flex; flex-direction: column; justify-content: space-between;">  
+        <div>
+          <img src="PIU2.webp" style="width: 150px; height: 150px; object-fit: contain; display: block; margin: 0 auto 10px;"> 
+          <h3 style="font-size: 16px; margin: 10px 0 5px; color: #333;">Ração Premier gatos filhotes 1,5kg </h3>
+          <p style="font-weight: bold; color: #27ae60; margin: 5px 0 10px;">R$ 92,90</p>
+        </div>
+        <a href="https://wa.me" target="_blank" style="background-color: #ff3838; color: white; padding: 8px 15px; text-decoration: none; border-radius: 4px; display: inline-block; font-size: 14px; margin-top: auto;">Comprar</a>
+      </div>
+    </div>
+<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="card-produto h-100" style="background-color: #f9f9f9; padding: 15px; border-radius: 8px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); display: flex; flex-direction: column; justify-content: space-between;">  
+        <div>
+          <img src="PIU3.jpg" style="width: 150px; height: 150px; object-fit: contain; display: block; margin: 0 auto 10px;"> 
+          <h3 style="font-size: 16px; margin: 10px 0 5px; color: #333;">Ração Special Prime arroz e salmão para filhotes 2kg</h3>
+          <p style="font-weight: bold; color: #27ae60; margin: 5px 0 10px;">R$ 104,68 </p>
+        </div>
+        <a href="https://wa.me" target="_blank" style="background-color: #ff3838; color: white; padding: 8px 15px; text-decoration: none; border-radius: 4px; display: inline-block; font-size: 14px; margin-top: auto;">Comprar</a>
+      </div>
+    </div>
+<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="card-produto h-100" style="background-color: #f9f9f9; padding: 15px; border-radius: 8px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); display: flex; flex-direction: column; justify-content: space-between;">  
+        <div>
+          <img src="PIU4.webp" style="width: 150px; height: 150px; object-fit: contain; display: block; margin: 0 auto 10px;"> 
+          <h3 style="font-size: 16px; margin: 10px 0 5px; color: #333;">KIT Ossos médios</h3>
+          <p style="font-weight: bold; color: #27ae60; margin: 5px 0 10px;">R$ 14,90</p>
+        </div>
+        <a href="https://wa.me" target="_blank" style="background-color: #ff3838; color: white; padding: 8px 15px; text-decoration: none; border-radius: 4px; display: inline-block; font-size: 14px; margin-top: auto;">Comprar</a>
+      </div>
+    </div>
+<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="card-produto h-100" style="background-color: #f9f9f9; padding: 15px; border-radius: 8px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); display: flex; flex-direction: column; justify-content: space-between;">  
+        <div>
+          <img src="PIU5.jpg" style="width: 150px; height: 150px; object-fit: contain; display: block; margin: 0 auto 10px;"> 
+          <h3 style="font-size: 16px; margin: 10px 0 5px; color: #333;">Pote de Ração de Alumínio para Cachrro</h3>
+          <p style="font-weight: bold; color: #27ae60; margin: 5px 0 10px;">R$ 16,50</p>
+        </div>
+        <a href="https://wa.me" target="_blank" style="background-color: #ff3838; color: white; padding: 8px 15px; text-decoration: none; border-radius: 4px; display: inline-block; font-size: 14px; margin-top: auto;">Comprar</a>
+      </div>
+    </div>
+<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="card-produto h-100" style="background-color: #f9f9f9; padding: 15px; border-radius: 8px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); display: flex; flex-direction: column; justify-content: space-between;">  
+        <div>
+          <img src="PIU6.webp" style="width: 150px; height: 150px; object-fit: contain; display: block; margin: 0 auto 10px;"> 
+          <h3 style="font-size: 16px; margin: 10px 0 5px; color: #333;">Gaiola para cachorro pequeno</h3>
+          <p style="font-weight: bold; color: #27ae60; margin: 5px 0 10px;">R$ 39,90</p>
+        </div>
+        <a href="https://wa.me" target="_blank" style="background-color: #ff3838; color: white; padding: 8px 15px; text-decoration: none; border-radius: 4px; display: inline-block; font-size: 14px; margin-top: auto;">Comprar</a>
+      </div>
+    </div>
+<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="card-produto h-100" style="background-color: #f9f9f9; padding: 15px; border-radius: 8px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); display: flex; flex-direction: column; justify-content: space-between;">  
+        <div>
+          <img src="PIU7.jpg" style="width: 150px; height: 150px; object-fit: contain; display: block; margin: 0 auto 10px;"> 
+          <h3 style="font-size: 16px; margin: 10px 0 5px; color: #333;">Ração para peixe betta 5g</h3>
+          <p style="font-weight: bold; color: #27ae60; margin: 5px 0 10px;">R$ 6,50</p>
+        </div>
+        <a href="https://wa.me" target="_blank" style="background-color: #ff3838; color: white; padding: 8px 15px; text-decoration: none; border-radius: 4px; display: inline-block; font-size: 14px; margin-top: auto;">Comprar</a>
+      </div>
+    </div>
+<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="card-produto h-100" style="background-color: #f9f9f9; padding: 15px; border-radius: 8px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); display: flex; flex-direction: column; justify-content: space-between;">  
+        <div>
+          <img src="PIU8.webp" style="width: 150px; height: 150px; object-fit: contain; display: block; margin: 0 auto 10px;"> 
+          <h3 style="font-size: 16px; margin: 10px 0 5px; color: #333;">Corda de Morder média</h3>
+          <p style="font-weight: bold; color: #27ae60; margin: 5px 0 10px;">R$ 12,90</p>
+        </div>
+        <a href="https://wa.me" target="_blank" style="background-color: #ff3838; color: white; padding: 8px 15px; text-decoration: none; border-radius: 4px; display: inline-block; font-size: 14px; margin-top: auto;">Comprar</a>
+      </div>
+    </div>
+<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="card-produto h-100" style="background-color: #f9f9f9; padding: 15px; border-radius: 8px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); display: flex; flex-direction: column; justify-content: space-between;">  
+        <div>
+          <img src="PIU9.webp" style="width: 150px; height: 150px; object-fit: contain; display: block; margin: 0 auto 10px;"> 
+          <h3 style="font-size: 16px; margin: 10px 0 5px; color: #333;">Bola Verde Cravinhos Cachorro</h3>
+          <p style="font-weight: bold; color: #27ae60; margin: 5px 0 10px;">R$ 7,90</p>
+        </div>
+        <a href="https://wa.me" target="_blank" style="background-color: #ff3838; color: white; padding: 8px 15px; text-decoration: none; border-radius: 4px; display: inline-block; font-size: 14px; margin-top: auto;">Comprar</a>
+      </div>
+    </div>
+<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="card-produto h-100" style="background-color: #f9f9f9; padding: 15px; border-radius: 8px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); display: flex; flex-direction: column; justify-content: space-between;">  
+        <div>
+          <img src="PIU10.webp" style="width: 150px; height: 150px; object-fit: contain; display: block; margin: 0 auto 10px;"> 
+          <h3 style="font-size: 16px; margin: 10px 0 5px; color: #333;">Casa de Gato </h3>
+          <p style="font-weight: bold; color: #27ae60; margin: 5px 0 10px;">R$ 789,40</p>
+        </div>
+        <a href="https://wa.me" target="_blank" style="background-color: #ff3838; color: white; padding: 8px 15px; text-decoration: none; border-radius: 4px; display: inline-block; font-size: 14px; margin-top: auto;">Comprar</a>
+      </div>
+    </div>
+<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="card-produto h-100" style="background-color: #f9f9f9; padding: 15px; border-radius: 8px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); display: flex; flex-direction: column; justify-content: space-between;">  
+        <div>
+          <img src="PIU11.webp" style="width: 150px; height: 150px; object-fit: contain; display: block; margin: 0 auto 10px;"> 
+          <h3 style="font-size: 16px; margin: 10px 0 5px; color: #333;">Shampoo/Condicionador para Cachorros</h3>
+          <p style="font-weight: bold; color: #27ae60; margin: 5px 0 10px;">R$ 8,90</p>
+        </div>
+        <a href="https://wa.me" target="_blank" style="background-color: #ff3838; color: white; padding: 8px 15px; text-decoration: none; border-radius: 4px; display: inline-block; font-size: 14px; margin-top: auto;">Comprar</a>
+      </div>
+    </div>
+<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="card-produto h-100" style="background-color: #f9f9f9; padding: 15px; border-radius: 8px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); display: flex; flex-direction: column; justify-content: space-between;">  
+        <div>
+          <img src="PIU12.webp" style="width: 150px; height: 150px; object-fit: contain; display: block; margin: 0 auto 10px;"> 
+          <h3 style="font-size: 16px; margin: 10px 0 5px; color: #333;">Banho a Seco Pet Clean para Gatos</h3>
+          <p style="font-weight: bold; color: #27ae60; margin: 5px 0 10px;">R$ 20,90</p>
+        </div>
+        <a href="https://wa.me" target="_blank" style="background-color: #ff3838; color: white; padding: 8px 15px; text-decoration: none; border-radius: 4px; display: inline-block; font-size: 14px; margin-top: auto;">Comprar</a>
+      </div>
+    </div>
+ </tr>
+ </table>
+<script>
+function filtrarProdutos() {
+  // Pega o que o usuário digitou e transforma em letras minúsculas
+  var input = document.getElementById('campo-pesquisa');
+  var filtro = input.value.toLowerCase();
+  
+  // Pega todos os cards de produtos da página
+  var cards = document.getElementsByClassName('card-produto');
+
+  // Passa de produto em produto para ver se o nome bate com a pesquisa
+  for (var i = 0; i < cards.length; i++) {
+    // Pega o texto do título (o h3 que tem o nome da ração)
+    var titulo = cards[i].getElementsByTagName('h3')[0];
+    var textoTitulo = titulo.textContent || titulo.innerText;
+
+    // Se o nome da ração tiver o que foi digitado, mostra o CARD INTEIRO como FLEX. Se não, esconde!
+    if (textoTitulo.toLowerCase().indexOf(filtro) > -1) {
+      cards[i].style.setProperty('display', 'flex', 'important'); // Mantém o flex para o botão não encolher
+    } else {
+      cards[i].style.setProperty('display', 'none', 'important'); // Esconde o produto que não serve
+    }
+  }
+}
+</script>
+
+
+</body>
+</html>
